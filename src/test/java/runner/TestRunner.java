@@ -13,7 +13,9 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 		glue = {"steps"},
 		plugin = {"pretty",
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
-				"timeline:test-output-thread/"
+				"timeline:test-output-thread/",
+				"junit:results/junit/cucumber.xml"
+				
 		},
 		dryRun=false,
 		tags="@rediff"
