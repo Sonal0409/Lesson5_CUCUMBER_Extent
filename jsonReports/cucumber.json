@@ -1,0 +1,75 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-10T12:02:41.808Z",
+        "line": 11,
+        "name": "Enter email and password on rediffPage",
+        "description": "",
+        "id": "test-for-extent-reports;enter-email-and-password-on-rediffpage;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3316582100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on RediffPage",
+            "match": {
+              "location": "steps.RediffEmailDemo.iAmOnRediffPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4196156200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter EmailID \u0027sonal04@gmail.com\u0027 \u0026 Password \u0027sonal@123\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027sonal04@gmail.com\u0027",
+                  "offset": 16
+                },
+                {
+                  "val": "\u0027sonal@123\u0027",
+                  "offset": 47
+                }
+              ],
+              "location": "steps.RediffEmailDemo.iEnterEmailPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2835747300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on Login",
+            "match": {
+              "location": "steps.RediffEmailDemo.clickOnLogin()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@rediff"
+          }
+        ]
+      }
+    ],
+    "name": "test for extent reports",
+    "description": "",
+    "id": "test-for-extent-reports",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Rediff.feature",
+    "tags": []
+  }
+]

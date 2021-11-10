@@ -14,7 +14,9 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 		plugin = {"pretty",
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 				"timeline:test-output-thread/",
-				"junit:results/junit/cucumber.xml"
+				"html:cucumberhtml",
+				"json:jsonReports/cucumber.json",
+				"junit:CucumberReports/cucmber.xml"
 				
 		},
 		dryRun=false,

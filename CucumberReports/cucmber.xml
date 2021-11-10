@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="10.599">
+    <testcase classname="test for extent reports" name="Enter email and password on rediffPage" time="10.451">
+        <system-out>
+            <![CDATA[Given I am on RediffPage....................................................passed
+When I enter EmailID 'sonal04@gmail.com' & Password 'sonal@123'.............passed
+And click on Login..........................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

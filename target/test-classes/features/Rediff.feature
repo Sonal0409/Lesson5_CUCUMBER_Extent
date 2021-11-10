@@ -9,5 +9,4 @@ Feature: test for extent reports
     Examples: 
       | id                | pwd       |
       | sonal04@gmail.com | sonal@123 |
-      | admin@gmail.com   | admin@123 |
-      | emp@gmail.com     | emp@123   |
+
